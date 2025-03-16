@@ -555,4 +555,109 @@ body {
     margin-top: 3rem;
     padding-top: 2rem;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* App Interface Mockup */
+.app-mockup {
+    background: white;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.app-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.app-header .location {
+    font-size: 0.9rem;
+    color: var(--light-text);
+}
+
+.studio-card {
+    background: var(--light-background);
+    border-radius: 16px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.studio-image {
+    width: 100%;
+    height: 180px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 12px;
+}
+
+.studio-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.studio-details h3 {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+}
+
+.studio-details p {
+    font-size: 0.9rem;
+    color: var(--light-text);
+}
+
+.studio-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.9rem;
+}
+
+.studio-rating i {
+    color: #fbbf24;
+}
+
+.studio-features {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+}
+
+.feature-tag {
+    background: white;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    color: var(--primary-color);
+}
+
+.app-nav {
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    color: var(--light-text);
+    font-size: 0.8rem;
+}
+
+.nav-item.active {
+    color: var(--primary-color);
+}
+
+.nav-item i {
+    font-size: 1.2rem;
 } 
